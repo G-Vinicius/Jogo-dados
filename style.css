@@ -1,0 +1,42 @@
+table, tr, th, td {
+    border: 1px solid #1E1E1E;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+table {
+    width: 500px;
+}
+body {
+    background-color: #2D2727;
+    color: #FFFFFF;
+}
+#dice-one {
+    background-color: #2D2727;
+    color: #FFFFFF;
+    border: 0.5px solid #F0EB8D;
+}
+#dice-two {
+    background-color: #F0EB8D;
+    color: #000000;
+    border: 0.5px solid #2D2727;
+}
+#restart {
+    background-color:teal;
+    color: #FFFFFF;
+}
+button {
+    height: 36px;
+    width: 144px;
+    margin: 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0.5px solid #F0EB8D;
+}
+#round-result {
+    margin: 12px;
+}
+#dice-one:disabled, #dice-two:disabled {
+    background-color: #FFFFFF;
+    color: #000000;
+}
